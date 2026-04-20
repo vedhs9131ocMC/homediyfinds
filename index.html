@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home DIY Finds — Curated Amazon Product Recommendations</title>
+<meta name="description" content="Home DIY Finds curates the best home DIY and kitchen products from Amazon, published on Pinterest.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #FFF8F0 0%, #FFE8D6 100%);
+    color: #1A1A1A;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 720px;
+    text-align: center;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #FF6B35;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    letter-spacing: -1.5px;
+  }
+  h1 .highlight { color: #FF6B35; }
+  .tagline {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 48px;
+    line-height: 1.5;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  @media (max-width: 600px) {
+    .cards { grid-template-columns: 1fr; }
+    h1 { font-size: 40px; }
+  }
+  .card {
+    background: #FFF;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+  .card h2 { font-size: 22px; margin-bottom: 12px; }
+  .card p { color: #666; font-size: 15px; line-height: 1.6; }
+  .cta {
+    display: inline-block;
+    background: #1A1A1A;
+    color: #FFF;
+    padding: 16px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .cta:hover { background: #FF6B35; }
+  footer {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+    color: #999;
+  }
+  footer a { color: #666; text-decoration: none; margin: 0 12px; }
+  footer a:hover { color: #FF6B35; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="logo">Home DIY Finds</div>
+  <h1>Curated <span class="highlight">Home & Kitchen</span><br>finds from Amazon</h1>
+  <p class="tagline">We surface top-rated home DIY essentials and kitchen gadgets from Amazon best sellers, shared daily on Pinterest.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h2>Kitchen Finds</h2>
+      <p>Top-rated rice cookers, blenders, cookware and gadgets that make everyday cooking easier.</p>
+    </div>
+    <div class="card">
+      <h2>Home DIY Essentials</h2>
+      <p>Tools, organization solutions, and hardware for every home improvement project.</p>
+    </div>
+  </div>
+
+  <a class="cta" href="https://www.pinterest.com/vedhs9131/" target="_blank">Follow on Pinterest &rarr;</a>
+
+  <footer>
+    <p>&copy; 2026 Home DIY Finds</p>
+    <p style="margin-top: 8px;">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="mailto:ved.dong@gmail.com">Contact</a>
+    </p>
+    <p style="margin-top: 16px; font-size: 12px;">As an Amazon Associate we earn from qualifying purchases.</p>
+  </footer>
+</div>
+</body>
+</html>
